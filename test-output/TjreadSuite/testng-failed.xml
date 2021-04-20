@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TjreadSuite]" parallel="methods">
+  <test name="Test(failed)" parallel="methods">
+    <classes>
+      <class name="TestNG.MultithreadTestNG.MultiThreadTestNG">
+        <methods>
+          <include name="ScrollDown"/>
+          <include name="ArmafClubDeNote"/>
+        </methods>
+      </class> <!-- TestNG.MultithreadTestNG.MultiThreadTestNG -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [TjreadSuite] -->

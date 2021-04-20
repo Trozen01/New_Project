@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="Test">
+  
+  <parameter name ="myname" value="Jitu"></parameter>
+  <parameter name ="browsername" value="chrome"></parameter>
+ <!--  <parameter name ="mysname" value="chrome"></parameter> //we can use @optional if do't want pass any value to method-->   
+  
+  <classes>
+    <class name="TestNGParameters.DemoOne"></class>  
+  </classes>
+  </test> 
+</suite> 

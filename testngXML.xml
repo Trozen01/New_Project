@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite2" parallel="classes">
+  <test thread-count="5" name="Test2" parallel="classes">
+    <classes>
+      <class name="TestNG.testngXML"/>
+    <class name="TestNG.testngXML2"/>     <!--  you can commit if you want run only one class -->.
+    </classes>
+  </test> <!-- Test2 -->
+</suite> <!-- Suite2 -->
