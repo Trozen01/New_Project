@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class GroupDependenciesTwo {
 	
-	@Test(dependsOnGroups="sanity.*")    // those depoendencies which start from sanity group name
+	@Test(dependsOnGroups="sanity.*")    // those dependencies which start from sanity group name
 	public void testtwo(){
 		
 		System.out.println("I am inside test2");

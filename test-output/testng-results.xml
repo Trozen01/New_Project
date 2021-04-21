@@ -1,25 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="399" started-at="2021-04-08T09:24:18Z" finished-at="2021-04-08T09:24:18Z">
+  <suite name="Suite" duration-ms="27" started-at="2021-04-21T06:45:59Z" finished-at="2021-04-21T06:45:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="399" started-at="2021-04-08T09:24:18Z" finished-at="2021-04-08T09:24:18Z">
-      <class name="pratic.AlertMessages">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:pratic.AlertMessages@e25b2fe]" name="beforeSuite" is-config="true" duration-ms="31769" started-at="2021-04-08T14:53:46Z" finished-at="2021-04-08T14:54:18Z">
+    <test name="Test" duration-ms="27" started-at="2021-04-21T06:45:59Z" finished-at="2021-04-21T06:45:59Z">
+      <class name="TestNGParameters.DemoOne">
+        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:TestNGParameters.DemoOne@5622fdf]" name="test" duration-ms="9" started-at="2021-04-21T12:15:59Z" finished-at="2021-04-21T12:15:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="Alertmsg()[pri:0, instance:pratic.AlertMessages@e25b2fe]" name="Alertmsg" duration-ms="396" started-at="2021-04-08T14:54:18Z" finished-at="2021-04-08T14:54:18Z">
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="testone(java.lang.String)[pri:0, instance:TestNGParameters.DemoOne@5622fdf]" name="testone" duration-ms="0" started-at="2021-04-21T12:15:59Z" finished-at="2021-04-21T12:15:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jitu]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Alertmsg -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:pratic.AlertMessages@e25b2fe]" name="afterSuite" is-config="true" duration-ms="2572" started-at="2021-04-08T14:54:18Z" finished-at="2021-04-08T14:54:21Z">
+        </test-method> <!-- testone -->
+        <test-method status="PASS" signature="testtwo(java.lang.String)[pri:0, instance:TestNGParameters.DemoOne@5622fdf]" name="testtwo" duration-ms="1" started-at="2021-04-21T12:15:59Z" finished-at="2021-04-21T12:15:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sawant]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- pratic.AlertMessages -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- testtwo -->
+      </class> <!-- TestNGParameters.DemoOne -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -5,7 +5,7 @@
   
   <parameter name ="myname" value="Jitu"></parameter>
   <parameter name ="browsername" value="chrome"></parameter>
- <!--  <parameter name ="mysname" value="chrome"></parameter> //we can use @optional if do't want pass any value to method-->   
+  <!-- <parameter name ="mysname" value="sawant"></parameter> //we can use @optional if do't want pass any value to method -->   
   
   <classes>
     <class name="TestNGParameters.DemoOne"></class>  

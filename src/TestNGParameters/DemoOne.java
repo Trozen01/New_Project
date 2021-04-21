@@ -33,7 +33,7 @@ public class DemoOne {
 	
 }
 
-
+// Run DemoOne.xml file as testNG and provide value to method from xml file.  
 // note:- we can use @optional if do't want pass any value to method 
 // just comment to 
 // we can pass default value in like this (@optional("Jitusawant" String sname))

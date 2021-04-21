@@ -58,7 +58,8 @@ public class GroupTestNG {
 
 // What is meta group and how to create?
 // Ans:- It is custome group, where you can decide what to include in custome
-// group and what to exclude.  (we can create customose group)
+// group and what to exclude.  (we can create customize group)
 
 // How to use regular expression.
+//Ans:- In testNG.xml file we can include and exclude our method this is the way to use regular expression.
 // Group at class level.
