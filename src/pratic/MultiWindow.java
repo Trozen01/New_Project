@@ -23,6 +23,8 @@ public class MultiWindow {
 			//provide instraction to webdriver to iterate from one window to other window.
 			Iterator<String> iterator=winido.iterator(); 
 			
+			System.out.println("-----------------------------------------------------------------------------");
+			
 			//click on link and open new window.
 			dr.findElement(By.xpath("")).click();//webdriver open second window.
 			
@@ -31,7 +33,7 @@ public class MultiWindow {
 			iterator=winido.iterator();
 			vMainWindow=iterator.next();// fatch current value.
 			System.out.println("first Value is:-->"+vMainWindow);
-
+			
 			//get id of the second window.
 			winido=dr.getWindowHandles();
 			iterator=winido.iterator();

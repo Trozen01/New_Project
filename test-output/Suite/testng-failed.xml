@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <parameter name="browsername" value="chrome"/>
+  <parameter name="browsername" value="chrome123"/>
   <test name="Test(failed)">
-    <parameter name="browsername" value="chrome"/>
+    <parameter name="browsername" value="chrome123"/>
     <classes>
       <class name="TestNG.MultithreadTestNG.MultipleBrowserParalleltesting">
         <methods>
           <include name="testcase"/>
+          <include name="beforeSuite"/>
         </methods>
       </class> <!-- TestNG.MultithreadTestNG.MultipleBrowserParalleltesting -->
     </classes>

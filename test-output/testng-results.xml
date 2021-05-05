@@ -2,45 +2,37 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="27" started-at="2021-04-21T06:45:59Z" finished-at="2021-04-21T06:45:59Z">
+  <suite name="Suite" duration-ms="40" started-at="2021-04-29T09:32:12Z" finished-at="2021-04-29T09:32:12Z">
     <groups>
+      <group name="smoke">
+        <method signature="GroupTestNG.Test2()[pri:0, instance:TestNGGroup.GroupTestNG@4883b407]" name="Test2" class="TestNGGroup.GroupTestNG"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="GroupTestNG.Test1()[pri:0, instance:TestNGGroup.GroupTestNG@4883b407]" name="Test1" class="TestNGGroup.GroupTestNG"/>
+        <method signature="GroupTestNG.Test2()[pri:0, instance:TestNGGroup.GroupTestNG@4883b407]" name="Test2" class="TestNGGroup.GroupTestNG"/>
+        <method signature="GroupTestNG.test5()[pri:0, instance:TestNGGroup.GroupTestNG@4883b407]" name="test5" class="TestNGGroup.GroupTestNG"/>
+      </group> <!-- sanity -->
+      <group name="AllClassTests">
+        <method signature="GroupTestNG.Test1()[pri:0, instance:TestNGGroup.GroupTestNG@4883b407]" name="Test1" class="TestNGGroup.GroupTestNG"/>
+        <method signature="GroupTestNG.Test2()[pri:0, instance:TestNGGroup.GroupTestNG@4883b407]" name="Test2" class="TestNGGroup.GroupTestNG"/>
+        <method signature="GroupTestNG.test5()[pri:0, instance:TestNGGroup.GroupTestNG@4883b407]" name="test5" class="TestNGGroup.GroupTestNG"/>
+      </group> <!-- AllClassTests -->
     </groups>
-    <test name="Test" duration-ms="27" started-at="2021-04-21T06:45:59Z" finished-at="2021-04-21T06:45:59Z">
-      <class name="TestNGParameters.DemoOne">
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:TestNGParameters.DemoOne@5622fdf]" name="test" duration-ms="9" started-at="2021-04-21T12:15:59Z" finished-at="2021-04-21T12:15:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test name="Test" duration-ms="40" started-at="2021-04-29T09:32:12Z" finished-at="2021-04-29T09:32:12Z">
+      <class name="TestNGGroup.GroupTestNG">
+        <test-method status="PASS" signature="Test1()[pri:0, instance:TestNGGroup.GroupTestNG@4883b407]" name="Test1" duration-ms="11" started-at="2021-04-29T15:02:12Z" finished-at="2021-04-29T15:02:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="testone(java.lang.String)[pri:0, instance:TestNGParameters.DemoOne@5622fdf]" name="testone" duration-ms="0" started-at="2021-04-21T12:15:59Z" finished-at="2021-04-21T12:15:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Jitu]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="Test2()[pri:0, instance:TestNGGroup.GroupTestNG@4883b407]" name="Test2" duration-ms="4" started-at="2021-04-29T15:02:12Z" finished-at="2021-04-29T15:02:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testone -->
-        <test-method status="PASS" signature="testtwo(java.lang.String)[pri:0, instance:TestNGParameters.DemoOne@5622fdf]" name="testtwo" duration-ms="1" started-at="2021-04-21T12:15:59Z" finished-at="2021-04-21T12:15:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sawant]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="test5()[pri:0, instance:TestNGGroup.GroupTestNG@4883b407]" name="test5" duration-ms="1" started-at="2021-04-29T15:02:12Z" finished-at="2021-04-29T15:02:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testtwo -->
-      </class> <!-- TestNGParameters.DemoOne -->
+        </test-method> <!-- test5 -->
+      </class> <!-- TestNGGroup.GroupTestNG -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

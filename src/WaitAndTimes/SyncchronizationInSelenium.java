@@ -66,7 +66,9 @@ public static String url;
 //Thread.sleep(2000) is static wait.
 //implicitlyWait=1.It will Wait till given time if element is visible then he go head. if element is not visible in given time then he give exception as No Such Element Exception.
 //               2.if element is found with in 2 second then selenium will ignore that 8 second and move for next action.
+
 //We use explicity wait use for partical refreshment page(Ajax component)score from cricket website, banner form Ecommerce website.  	
+
 // can we do the implicitly wait and explicit wait together? No, because implicitly wait is global wait and it will wait till 20 second and explicit wait also wait for 7 second so selenium will confuse which weight we following so in lager appliaction most of the time avoid implicitly wait.  
 //we can override implicitly wait. we can declare many time in project in any where.
 

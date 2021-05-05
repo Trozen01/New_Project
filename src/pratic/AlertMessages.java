@@ -53,7 +53,7 @@ public static String Structure_type;
 			//Swatch to alert.
 			Alert alert = wd.switchTo().alert();
 			
-			
+						
 			//captcher message from alert window.
 			String message =wd.switchTo().alert().getText();
 			
